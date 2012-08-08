@@ -1,0 +1,1 @@
+/Users/mfogg/Documents/Titanium Studio Workspace/FacebookNavBarViewExample/Resources/app.js
