@@ -13,8 +13,8 @@ NSString * const TI_APPLICATION_PUBLISHER = @"mfogg";
 NSString * const TI_APPLICATION_URL = @"http://";
 NSString * const TI_APPLICATION_NAME = @"FacebookNavBarViewExample";
 NSString * const TI_APPLICATION_VERSION = @"1.0";
-NSString * const TI_APPLICATION_DESCRIPTION = @"not specified";
-NSString * const TI_APPLICATION_COPYRIGHT = @"2012 by mfogg";
+NSString * const TI_APPLICATION_DESCRIPTION = @"This is a test app trying to replicate facebooks static navbar setup.";
+NSString * const TI_APPLICATION_COPYRIGHT = @"2012 by Mike Fogg";
 NSString * const TI_APPLICATION_GUID = @"6c737d4c-2bc0-44ee-8545-75f92bb55579";
 BOOL const TI_APPLICATION_ANALYTICS = true;
 

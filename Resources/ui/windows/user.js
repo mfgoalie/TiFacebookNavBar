@@ -9,12 +9,28 @@ var createUser = function(obj){
 		zIndex:3
 	});
 	
-	var viewLabel = Ti.UI.createLabel({
+	var view_label = Ti.UI.createLabel({
+		top:100,
 		text:'User ID: '+obj.user.id,
 		color:'#959595'
 	});
 	
-	self.add(viewLabel);
+	//Quick view memory test
+	var start_size = 100;
+	for (var i=0;i < 20;i++){
+		var test_view = Ti.UI.createView({
+			height:start_size,
+			width:start_size,
+			borderWidth:1,
+			borderColor:'#777',
+			backgroundColor:'#ddd'
+		});
+		
+		start_size = start_size - 5;
+		self.add(test_view);
+	};
+	
+	self.add(view_label);
 	
 	self.animate({
 		left:0,
